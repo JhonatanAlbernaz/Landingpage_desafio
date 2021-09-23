@@ -29,14 +29,12 @@ $('#menu-responsivo').on('click', function(e){
 });
 
 function abrirMenu(){
-	$('#row-responsivo').show(1000);
-	$('#menu-responsivo').addClass('menu-responsivo-ativo');
+	$("#row-responsivo").show(2500);
 	menu_aberto_aberto = 1;
 }
 
 function fecharMenu(){
-	$('#row-responsivo').hide(500);
-	$('#menu-responsivo').removeClass('menu-responsivo-ativo');
+	$("#row-responsivo").hide(2500);
 	menu_aberto_aberto = 0;
 }
 
