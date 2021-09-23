@@ -16,7 +16,6 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 
-
 var menu_aberto_aberto = 0;
 
 $('#menu-responsivo').on('click', function(e){
@@ -33,11 +32,16 @@ function abrirMenu(){
 	$('#row-responsivo').show(1000);
 	$('#menu-responsivo').addClass('menu-responsivo-ativo');
 	menu_aberto_aberto = 1;
-    $('#row-responsivo').animate({left: '70px'});
 }
 
 function fecharMenu(){
 	$('#row-responsivo').hide(500);
 	$('#menu-responsivo').removeClass('menu-responsivo-ativo');
 	menu_aberto_aberto = 0;
+}
+
+let navbar = document.querySelector(".navbar");
+
+document.querySelector("#row-responsivo").onclick = () =>{
+  navbar.classList.toggle("active");
 }
