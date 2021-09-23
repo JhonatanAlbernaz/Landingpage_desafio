@@ -44,7 +44,7 @@
 }
 
 .hei {
-    height: 900px;
+    height: 900em;
 }
 
 @media (max-width: 320px) {
@@ -72,5 +72,53 @@
 }
 
 @media (min-width: 1201px) {
+    .header-menu {
+        height: 100px;
+        margin-top: 0em;
+    }
     
+    .box-shadow {
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
+    }
+    
+    .background-image-menu {
+        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
+        background-position: center;
+        background-size: cover;
+        width: 146px;
+        height: 40px;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+    
+    .link-menu {
+        padding: 1.2em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none !important;
+        font-family: "Roboto",sans-serif;
+        color: #50658e;
+        line-height: 1.6;
+        font-size: 0.9375rem;
+    }
+    
+    .padding-top-2 {
+        padding-top: 2.5em;
+    }
+    
+    .botao-menu {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border-radius: 21px;
+        margin-top: 2em;
+        width: 7.3em;
+        font-weight: 600;
+    }
+    
+    .hei {
+        height: 900px;
+    }
 }
