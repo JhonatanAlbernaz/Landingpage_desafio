@@ -1,10 +1,13 @@
 .header-menu {
-    height: 100px;
-}
-
-.box-shadow {
+    background-color: white;
     box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
     transition: all .5s;
+    height: 100px;
+    margin-top: 0em;
+}
+
+.margin-left-7 {
+    margin-left: 7em;
 }
 
 .background-image-menu {
@@ -41,10 +44,6 @@
     margin-top: 2em;
     width: 7.3em;
     font-weight: 600;
-}
-
-.hei {
-    height: 900em;
 }
 
 #segunda-col-menu {
@@ -91,15 +90,87 @@
     padding-top: 1.9rem!important;
 }
 
+.background-image-quarta-section {
+    background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+    background-position: center;
+    background-size: cover;
+    height: 600em;
+}
+
+.titulo-primeira-section {
+    display: flex;
+    align-items: center;
+    font-size: 5.25em;
+    line-height: 1;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
+    font-weight: bold;
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+}
+
+.espacamento-col-primeira-section {
+    margin-top: 155px;
+    margin-left: -26px;
+}
+
+.span-primeira-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: -6rem;
+    margin-left: 18.25rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 37px;
+}
+
+.sub-titulo-1 {
+    font-size: 1.6rem;
+    color: #f86168;
+    letter-spacing: 0.04em;
+}
+
+.sub-titulo-2 {
+    font-size: 2.6rem;
+    color: #50658e;
+}
+
+.descricao-primeira-section {
+    color: #50658e;
+    padding-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.botao-primeira-section {
+    width: 205px;
+    height: 45px;
+    background-color: #007bff;
+    border-radius: 47px;
+    padding-top: 10px;
+}
+
+.texto-botao {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.fa-shield-alt {
+    color: white;
+    margin-left: 15px;
+}
+
 @media (max-width: 320px) {
     .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
         height: 100px;
         margin-top: 0em;
     }
     
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
+    .margin-left-7 {
+        margin-left: 0em;
     }
     
     .background-image-menu {
@@ -210,7 +281,7 @@
         max-height: 100vh;
         width: 303px;
         top: -72px;
-        left: 227px;
+        left: 255px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
@@ -234,168 +305,25 @@
         padding-right: 32em;
     }
 
-    .hei {
-        height: 900em;
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
     }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
     .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
         height: 100px;
         margin-top: 0em;
     }
     
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
-    }
-    
-    .background-image-menu {
-        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
-        background-position: center;
-        background-size: cover;
-        width: 146px;
-        height: 40px;
-        margin-top: 2em;
-        cursor: pointer;
-        margin-left: 1em;
-    }
-    
-    .link-menu {
-        padding: 0.8em;
-        font-weight: 600;
-        text-align: center;
-        text-decoration: none !important;
-        font-family: "Roboto",sans-serif;
-        color: #50658e;
-        line-height: 1.6;
-        font-size: 0.9375rem;
-        padding-left: 0em;
-    }
-    
-    .padding-top-2 {
-        padding-top: 2.5em;
-    }
-    
-    .botao-menu {
-        line-height: 1.5rem;
-        font-size: 1rem;
-        color: white;
-        background-color: #007bff;
-        border-radius: 21px;
-        margin-top: 3.3em;
-        width: 7.3em;
-        font-weight: 600;
-        margin-left: 0em;
-    }
-
-    #segunda-col-menu {
-        display: none;
-    }
-    
-    #terceira-col-menu {
-        display: none;
-    }
-    
-    #menu-responsivo {
-        display: block;
-        z-index: 1000;
-        position: absolute;
-    }
-
-    .menu-tablet {
-        display: inline-block;
-        cursor: pointer;
-    }
-    
-    .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: #333;
-        margin: 6px 0;
-        transition: 0.4s;
-        margin-left: 18em;
-    }
-    
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 6px) ;
-    }
-    
-    .change .bar2 {
-        opacity: 0;
-    }
-    
-    .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-        transform: rotate(45deg) translate(-8px, -8px) ;
-    }
-    
-    .padding-top-1 {
-        padding-left: 1em;
-        margin-top: -4.2em;
-    }
-
-    .link-responsivo {
-        line-height: 2.5em;
-        position: absolute;
-        background-color: white;
-        top: 0px;
-        left: 0em;
-        width: 16em;
-        height: 30em;
-    }
-
-    #row-responsivo {
-        display: none;
-        width: 46em;
-    }
-    
-
-    #menu-lateral {
-        background-color: white;
-        min-height: 100vh;
-        max-height: 100vh;
-        width: 303px;
-        top: -72px;
-        left: 227px;
-        padding: 1.5rem 1.5rem;
-        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
-        transform: translateX(-100%);
-        z-index: 888;
-        overflow: auto;
-    }
-
-    .news-tablet {
-        margin-top: -0.5em;
-        position: absolute;
-    }
-
-    .col-responsivo-tablet {
-        position: fixed;
-        top: 0;
-        bottom: 11px;
-        left: 242px;
-        right: 0px;
-        z-index: 777;
-        background: rgba(27,71,161,0.8);
-        padding-right: 32em;
-    }
-
-    .hei {
-        height: 900em;
-    }
-}
-
-@media (min-width: 376px) and (max-width: 576px) {
-    .header-menu {
-        height: 100px;
-        margin-top: 0em;
-    }
-    
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
+    .margin-left-7 {
+        margin-left: -2em;
     }
     
     .background-image-menu {
@@ -506,12 +434,13 @@
         max-height: 100vh;
         width: 303px;
         top: -72px;
-        left: 227px;
+        left: 255px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
         z-index: 888;
         overflow: auto;
+        padding-left: 2em;
     }
 
     .news-tablet {
@@ -530,20 +459,179 @@
         padding-right: 32em;
     }
 
-    .hei {
-        height: 900em;
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+    .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
+        height: 100px;
+        margin-top: 0em;
+    }
+    
+    .margin-left-7 {
+        margin-left: 0em;
+    }
+    
+    .background-image-menu {
+        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
+        background-position: center;
+        background-size: cover;
+        width: 146px;
+        height: 40px;
+        margin-top: 2em;
+        cursor: pointer;
+        margin-left: 1em;
+    }
+    
+    .link-menu {
+        padding: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none !important;
+        font-family: "Roboto",sans-serif;
+        color: #50658e;
+        line-height: 1.6;
+        font-size: 0.9375rem;
+        padding-left: 0em;
+    }
+    
+    .padding-top-2 {
+        padding-top: 2.5em;
+    }
+    
+    .botao-menu {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border-radius: 21px;
+        margin-top: 3.3em;
+        width: 7.3em;
+        font-weight: 600;
+        margin-left: 0em;
+    }
+
+    #segunda-col-menu {
+        display: none;
+    }
+    
+    #terceira-col-menu {
+        display: none;
+    }
+    
+    #menu-responsivo {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    .menu-tablet {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+        margin-left: 18em;
+    }
+    
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    
+    .padding-top-1 {
+        padding-left: 4em;
+        margin-top: -4.2em;
+    }
+
+    .link-responsivo {
+        line-height: 2.5em;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        left: 0em;
+        width: 16em;
+        height: 30em;
+    }
+
+    #row-responsivo {
+        display: none;
+        width: 46em;
+    }
+    
+
+    #menu-lateral {
+        background-color: white;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 303px;
+        top: -72px;
+        left: 255px;
+        padding: 1.5rem 1.5rem;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        transform: translateX(-100%);
+        z-index: 888;
+        overflow: auto;
+        padding-left: 2em;
+    }
+
+    .news-tablet {
+        margin-top: -0.5em;
+        position: absolute;
+    }
+
+    .col-responsivo-tablet {
+        position: fixed;
+        top: 0;
+        bottom: 11px;
+        left: 242px;
+        right: 0px;
+        z-index: 777;
+        background: rgba(27,71,161,0.8);
+        padding-right: 32em;
+    }
+
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
     }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
         height: 100px;
         margin-top: 0em;
     }
     
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
+    .margin-left-7 {
+        margin-left: 2em;
     }
     
     .background-image-menu {
@@ -651,12 +739,13 @@
         max-height: 100vh;
         width: 298px;
         top: -72px;
-        left: 218px;
+        left: 266px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
         z-index: 888;
         overflow: auto;
+        padding-left: 2.2em;
     }
 
     .news-tablet {
@@ -668,15 +757,18 @@
         position: fixed;
         top: 0;
         bottom: 11px;
-        left: 242px;
+        left: 252px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
-        padding-right: 32em;
+        padding-right: 32em
     }
 
-    .hei {
-        height: 900em;
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
     }
     
 }
@@ -687,13 +779,15 @@
 
 @media (min-width: 993px) and (max-width: 1200px) {
     .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
         height: 100px;
         margin-top: 0em;
     }
     
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
+    .margin-left-7 {
+        margin-left: 2em;
     }
     
     .background-image-menu {
@@ -714,7 +808,7 @@
         font-family: "Roboto",sans-serif;
         color: #50658e;
         line-height: 1.6;
-        font-size: 0.9375rem;
+        font-size: 0.931rem;
     }
     
     .padding-top-2 {
@@ -748,20 +842,25 @@
         display: none;
     }
 
-    .hei {
-        height: 900em;
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
     }
 }
 
 @media (min-width: 1201px) {
     .header-menu {
+        background-color: white;
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
         height: 100px;
         margin-top: 0em;
     }
     
-    .box-shadow {
-        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
-        transition: all .5s;
+    .margin-left-7 {
+        margin-left: 7em;
     }
     
     .background-image-menu {
@@ -816,7 +915,10 @@
         display: none;
     }
     
-    .hei {
-        height: 900em;
+    .background-image-quarta-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 600em;
     }
 }
