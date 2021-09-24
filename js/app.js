@@ -37,9 +37,3 @@ function fecharMenu(){
 	$("#row-responsivo").hide(2500);
 	menu_aberto_aberto = 0;
 }
-
-let navbar = document.querySelector(".navbar");
-
-document.querySelector("#row-responsivo").onclick = () =>{
-  navbar.classList.toggle("active");
-}

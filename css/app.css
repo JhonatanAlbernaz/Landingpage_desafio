@@ -92,15 +92,447 @@
 }
 
 @media (max-width: 320px) {
+    .header-menu {
+        height: 100px;
+        margin-top: 0em;
+    }
     
+    .box-shadow {
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
+    }
+    
+    .background-image-menu {
+        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
+        background-position: center;
+        background-size: cover;
+        width: 146px;
+        height: 40px;
+        margin-top: 2em;
+        cursor: pointer;
+        margin-left: 0em;
+    }
+    
+    .link-menu {
+        padding: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none !important;
+        font-family: "Roboto",sans-serif;
+        color: #50658e;
+        line-height: 1.6;
+        font-size: 0.9375rem;
+        padding-left: 0em;
+    }
+    
+    .padding-top-2 {
+        padding-top: 2.5em;
+    }
+    
+    .botao-menu {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border-radius: 21px;
+        margin-top: 3.3em;
+        width: 7.3em;
+        font-weight: 600;
+        margin-left: 0em;
+    }
+
+    #segunda-col-menu {
+        display: none;
+    }
+    
+    #terceira-col-menu {
+        display: none;
+    }
+    
+    #menu-responsivo {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    .menu-tablet {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+        margin-left: 15em;
+    }
+    
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    
+    .padding-top-1 {
+        padding-left: 1em;
+        margin-top: -4.2em;
+    }
+
+    .link-responsivo {
+        line-height: 2.5em;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        left: 0em;
+        width: 16em;
+        height: 30em;
+    }
+
+    #row-responsivo {
+        display: none;
+        width: 46em;
+    }
+    
+
+    #menu-lateral {
+        background-color: white;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 303px;
+        top: -72px;
+        left: 227px;
+        padding: 1.5rem 1.5rem;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        transform: translateX(-100%);
+        z-index: 888;
+        overflow: auto;
+    }
+
+    .news-tablet {
+        margin-top: -0.5em;
+        position: absolute;
+    }
+
+    .col-responsivo-tablet {
+        position: fixed;
+        top: 0;
+        bottom: 11px;
+        left: 242px;
+        right: 0px;
+        z-index: 777;
+        background: rgba(27,71,161,0.8);
+        padding-right: 32em;
+    }
+
+    .hei {
+        height: 900em;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
+    .header-menu {
+        height: 100px;
+        margin-top: 0em;
+    }
     
+    .box-shadow {
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
+    }
+    
+    .background-image-menu {
+        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
+        background-position: center;
+        background-size: cover;
+        width: 146px;
+        height: 40px;
+        margin-top: 2em;
+        cursor: pointer;
+        margin-left: 1em;
+    }
+    
+    .link-menu {
+        padding: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none !important;
+        font-family: "Roboto",sans-serif;
+        color: #50658e;
+        line-height: 1.6;
+        font-size: 0.9375rem;
+        padding-left: 0em;
+    }
+    
+    .padding-top-2 {
+        padding-top: 2.5em;
+    }
+    
+    .botao-menu {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border-radius: 21px;
+        margin-top: 3.3em;
+        width: 7.3em;
+        font-weight: 600;
+        margin-left: 0em;
+    }
+
+    #segunda-col-menu {
+        display: none;
+    }
+    
+    #terceira-col-menu {
+        display: none;
+    }
+    
+    #menu-responsivo {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    .menu-tablet {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+        margin-left: 18em;
+    }
+    
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    
+    .padding-top-1 {
+        padding-left: 1em;
+        margin-top: -4.2em;
+    }
+
+    .link-responsivo {
+        line-height: 2.5em;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        left: 0em;
+        width: 16em;
+        height: 30em;
+    }
+
+    #row-responsivo {
+        display: none;
+        width: 46em;
+    }
+    
+
+    #menu-lateral {
+        background-color: white;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 303px;
+        top: -72px;
+        left: 227px;
+        padding: 1.5rem 1.5rem;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        transform: translateX(-100%);
+        z-index: 888;
+        overflow: auto;
+    }
+
+    .news-tablet {
+        margin-top: -0.5em;
+        position: absolute;
+    }
+
+    .col-responsivo-tablet {
+        position: fixed;
+        top: 0;
+        bottom: 11px;
+        left: 242px;
+        right: 0px;
+        z-index: 777;
+        background: rgba(27,71,161,0.8);
+        padding-right: 32em;
+    }
+
+    .hei {
+        height: 900em;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 576px) {
+    .header-menu {
+        height: 100px;
+        margin-top: 0em;
+    }
     
+    .box-shadow {
+        box-shadow: 0 .1rem 1rem rgba(0,0,0,.15)!important;
+        transition: all .5s;
+    }
+    
+    .background-image-menu {
+        background-image: url(http://demo.themenio.com/kovid19/images/logo-dark.png);
+        background-position: center;
+        background-size: cover;
+        width: 146px;
+        height: 40px;
+        margin-top: 2em;
+        cursor: pointer;
+        margin-left: 1em;
+    }
+    
+    .link-menu {
+        padding: 0.8em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none !important;
+        font-family: "Roboto",sans-serif;
+        color: #50658e;
+        line-height: 1.6;
+        font-size: 0.9375rem;
+        padding-left: 0em;
+    }
+    
+    .padding-top-2 {
+        padding-top: 2.5em;
+    }
+    
+    .botao-menu {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #007bff;
+        border-radius: 21px;
+        margin-top: 3.3em;
+        width: 7.3em;
+        font-weight: 600;
+        margin-left: 0em;
+    }
+
+    #segunda-col-menu {
+        display: none;
+    }
+    
+    #terceira-col-menu {
+        display: none;
+    }
+    
+    #menu-responsivo {
+        display: block;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    .menu-tablet {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+        margin-left: 18em;
+    }
+    
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    
+    .padding-top-1 {
+        padding-left: 4em;
+        margin-top: -4.2em;
+    }
+
+    .link-responsivo {
+        line-height: 2.5em;
+        position: absolute;
+        background-color: white;
+        top: 0px;
+        left: 0em;
+        width: 16em;
+        height: 30em;
+    }
+
+    #row-responsivo {
+        display: none;
+        width: 46em;
+    }
+    
+
+    #menu-lateral {
+        background-color: white;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 303px;
+        top: -72px;
+        left: 227px;
+        padding: 1.5rem 1.5rem;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        transform: translateX(-100%);
+        z-index: 888;
+        overflow: auto;
+    }
+
+    .news-tablet {
+        margin-top: -0.5em;
+        position: absolute;
+    }
+
+    .col-responsivo-tablet {
+        position: fixed;
+        top: 0;
+        bottom: 11px;
+        left: 242px;
+        right: 0px;
+        z-index: 777;
+        background: rgba(27,71,161,0.8);
+        padding-right: 32em;
+    }
+
+    .hei {
+        height: 900em;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -133,6 +565,7 @@
         color: #50658e;
         line-height: 1.6;
         font-size: 0.9375rem;
+        padding-left: 0em;
     }
     
     .padding-top-2 {
@@ -145,9 +578,10 @@
         color: white;
         background-color: #007bff;
         border-radius: 21px;
-        margin-top: 2em;
+        margin-top: 3.3em;
         width: 7.3em;
         font-weight: 600;
+        margin-left: 0em;
     }
 
     #segunda-col-menu {
@@ -160,6 +594,8 @@
     
     #menu-responsivo {
         display: block;
+        z-index: 1000;
+        position: absolute;
     }
 
     .menu-tablet {
@@ -194,10 +630,6 @@
         padding-top: 1.9rem!important;
     }
 
-    .hei {
-        height: 900em;
-    }
-
     .link-responsivo {
         line-height: 2.5em;
         position: absolute;
@@ -213,8 +645,38 @@
     }
     
 
-    #teste {
-        display: none;
+    #menu-lateral {
+        background-color: white;
+        min-height: 100vh;
+        max-height: 100vh;
+        width: 298px;
+        top: -72px;
+        left: 218px;
+        padding: 1.5rem 1.5rem;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        transform: translateX(-100%);
+        z-index: 888;
+        overflow: auto;
+    }
+
+    .news-tablet {
+        margin-top: -0.5em;
+        position: absolute;
+    }
+
+    .col-responsivo-tablet {
+        position: fixed;
+        top: 0;
+        bottom: 11px;
+        left: 242px;
+        right: 0px;
+        z-index: 777;
+        background: rgba(27,71,161,0.8);
+        padding-right: 32em;
+    }
+
+    .hei {
+        height: 900em;
     }
     
 }
