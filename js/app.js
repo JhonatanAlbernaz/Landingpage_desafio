@@ -6,6 +6,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.bottom = "560px";
     document.getElementById("navbar").style.padding = "1em";
     document.getElementById("navbar").style.paddingLeft = "0em";
+    document.getElementById("navbar").style.boxShadow = "0em";
   } else {
     document.getElementById("navbar").style.top = "0px";
     document.getElementById("navbar").style.bottom = "533px";

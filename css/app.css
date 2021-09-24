@@ -90,11 +90,11 @@
     padding-top: 1.9rem!important;
 }
 
-.background-image-quarta-section {
+.background-image-primeira-section {
     background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
     background-position: center;
     background-size: cover;
-    height: 600em;
+    height: 650px;
 }
 
 .titulo-primeira-section {
@@ -111,8 +111,8 @@
 }
 
 .espacamento-col-primeira-section {
-    margin-top: 155px;
-    margin-left: -26px;
+    margin-top: 180px;
+    padding-left: 25px;
 }
 
 .span-primeira-section {
@@ -150,14 +150,48 @@
     padding-top: 10px;
 }
 
+.botao-primeira-section:hover {
+    background-color: #2a81ea;
+}
+
+.segundo-botao-primeira-section {
+    margin-left: 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+
 .texto-botao {
     color: white !important;
     text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.segundo-texto-botao {
+    color: #2a81ea;
+    text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fa-shield-alt {
     color: white;
     margin-left: 15px;
+}
+
+.fa-arrow-right {
+    color: #2a81ea;
+    margin-left: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.background-segunda-imagem-primeira-section {
+    background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    margin-top: 145px;
 }
 
 @media (max-width: 320px) {
@@ -305,11 +339,11 @@
         padding-right: 32em;
     }
 
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
 }
 
@@ -459,11 +493,11 @@
         padding-right: 32em;
     }
 
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
 }
 
@@ -613,11 +647,11 @@
         padding-right: 32em;
     }
 
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
 }
 
@@ -764,11 +798,11 @@
         padding-right: 32em
     }
 
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
     
 }
@@ -842,11 +876,11 @@
         display: none;
     }
 
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
 }
 
@@ -915,10 +949,10 @@
         display: none;
     }
     
-    .background-image-quarta-section {
+    .background-image-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 600em;
+        height: 650px;
     }
 }
