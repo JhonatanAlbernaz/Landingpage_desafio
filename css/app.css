@@ -94,7 +94,7 @@
     background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 710px;
 }
 
 .titulo-primeira-section {
@@ -190,8 +190,33 @@
     background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
     background-position: center;
     background-size: cover;
-    height: 480px;
+    height: 484px;
     margin-top: 145px;
+}
+
+.titulo-row-primeira-section {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #7d92bb;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+}
+
+
+.numeros-primeira-section {
+    color: #465675;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tag-p {
+    font-style: italic;
+    font-size: 0.75rem;
+    color: #7d92bb;
+    padding-top: 1.75rem;
 }
 
 @media (max-width: 320px) {
@@ -332,7 +357,7 @@
         position: fixed;
         top: 0;
         bottom: 11px;
-        left: 242px;
+        left: 240px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -343,7 +368,143 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 1075px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 3em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 414px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4.3rem;
+        margin-left: 10.5em;
+        font-family: 'Oswald', sans-serif;
+        line-height: 25px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 1.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 135px;
+        height: 38px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 6px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: -3px;
+        background-color: white;
+        padding-top: 5px;
+        width: 135px;
+        height: 38px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 4px;
+        font-size: 13px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 237px;
+        margin-top: -925px;
+        margin-left: 15px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.66rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
+    }
+
+    .widht-50 {
+        width: 50%;
+        margin-top: -40px;
+    }
+
+    .margin-top-55 {
+        margin-top: -55px;
     }
 }
 
@@ -486,7 +647,7 @@
         position: fixed;
         top: 0;
         bottom: 11px;
-        left: 242px;
+        left: 240px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -497,7 +658,142 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 1100px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 3.5em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 455px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4.3rem;
+        margin-left: 12.25rem;
+        font-family: 'Oswald', sans-serif;
+        line-height: 25px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 1.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 135px;
+        height: 38px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 6px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: 20px;
+        background-color: white;
+        padding-top: 5px;
+        width: 135px;
+        height: 38px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 4px;
+        font-size: 13px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 290px;
+        margin-top: -960px;
+        margin-left: 15px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
+    }
+
+    .widht-50 {
+        width: 50%;
+    }
+
+    .margin-top-55 {
+        margin-top: -55px;
     }
 }
 
@@ -640,7 +936,7 @@
         position: fixed;
         top: 0;
         bottom: 11px;
-        left: 242px;
+        left: 240px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -651,7 +947,137 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 1140px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 3.5em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 481px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -4.3rem;
+        margin-left: 12.25rem;
+        font-family: 'Oswald', sans-serif;
+        line-height: 25px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 1.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 148px;
+        height: 38px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 6px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: 20px;
+        background-color: white;
+        padding-top: 5px;
+        width: 148px;
+        height: 38px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 5px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 326px;
+        margin-top: -995px;
+        margin-left: 15px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
+    }
+
+    .widht-50 {
+        width: 50%;
     }
 }
 
@@ -765,12 +1191,11 @@
     #row-responsivo {
         display: none;
     }
-    
 
     #menu-lateral {
         background-color: white;
         min-height: 100vh;
-        max-height: 100vh;
+        max-height: 104vh;
         width: 298px;
         top: -72px;
         left: 266px;
@@ -790,7 +1215,7 @@
     .col-responsivo-tablet {
         position: fixed;
         top: 0;
-        bottom: 11px;
+        bottom: -1px;
         left: 252px;
         right: 0px;
         z-index: 777;
@@ -802,7 +1227,131 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 1055px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 5.25em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 75px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -6rem;
+        margin-left: 18.25rem;
+        font-family: 'Oswald', sans-serif;
+        line-height: 37px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1.6rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 2.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 205px;
+        height: 45px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 10px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: 20px;
+        background-color: white;
+        padding-top: 10px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 15px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 340px;
+        margin-top: 130px;
+        width: 401px;
+        margin-left: 148px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
     }
     
 }
@@ -842,7 +1391,7 @@
         font-family: "Roboto",sans-serif;
         color: #50658e;
         line-height: 1.6;
-        font-size: 0.931rem;
+        font-size: 0.92rem;
     }
     
     .padding-top-2 {
@@ -880,7 +1429,129 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 710px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 5.25em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 180px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -6rem;
+        margin-left: 18.25rem;
+        font-family: 'Oswald', sans-serif;
+        line-height: 37px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1.6rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 2.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 205px;
+        height: 45px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 10px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: 20px;
+        background-color: white;
+        padding-top: 10px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 15px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 440px;
+        margin-top: 170px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
     }
 }
 
@@ -953,6 +1624,135 @@
         background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
         background-position: center;
         background-size: cover;
-        height: 650px;
+        height: 710px;
+    }
+
+    .background-image-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 710px;
+    }
+    
+    .titulo-primeira-section {
+        display: flex;
+        align-items: center;
+        font-size: 5.25em;
+        line-height: 1;
+        vertical-align: middle;
+        margin-bottom: 1rem;
+        letter-spacing: -0.025em;
+        font-weight: bold;
+        color: #50658e;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .espacamento-col-primeira-section {
+        margin-top: 180px;
+        padding-left: 25px;
+    }
+    
+    .span-primeira-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: -6rem;
+        margin-left: 18.25rem;
+        font-family: 'Oswald', sans-serif;
+        line-height: 37px;
+    }
+    
+    .sub-titulo-1 {
+        font-size: 1.6rem;
+        color: #f86168;
+        letter-spacing: 0.04em;
+    }
+    
+    .sub-titulo-2 {
+        font-size: 2.6rem;
+        color: #50658e;
+    }
+    
+    .descricao-primeira-section {
+        color: #50658e;
+        padding-top: 35px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .botao-primeira-section {
+        width: 205px;
+        height: 45px;
+        background-color: #007bff;
+        border-radius: 47px;
+        padding-top: 10px;
+    }
+    
+    .botao-primeira-section:hover {
+        background-color: #2a81ea;
+    }
+    
+    .segundo-botao-primeira-section {
+        margin-left: 20px;
+        background-color: white;
+        padding-top: 10px;
+    }
+    
+    .texto-botao {
+        color: white !important;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .segundo-texto-botao {
+        color: #2a81ea;
+        text-decoration: none !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .fa-shield-alt {
+        color: white;
+        margin-left: 15px;
+    }
+    
+    .fa-arrow-right {
+        color: #2a81ea;
+        margin-left: 15px;
+    }
+    
+    .margin-top-20 {
+        margin-top: 20px;
+    }
+    
+    .background-segunda-imagem-primeira-section {
+        background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
+        background-position: center;
+        background-size: cover;
+        height: 484px;
+        margin-top: 145px;
+    }
+    
+    .titulo-row-primeira-section {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #7d92bb;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 80px;
+    }
+    
+    
+    .numeros-primeira-section {
+        color: #465675;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .tag-p {
+        font-style: italic;
+        font-size: 0.75rem;
+        color: #7d92bb;
+        padding-top: 1.75rem;
     }
 }
