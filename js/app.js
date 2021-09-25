@@ -64,3 +64,16 @@ $(document).ready(function(){
     });
   });
 });
+
+
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+
+  if(scroll > 200){
+    $("#text-animation").fadeIn(1000);
+
+    $("#text-animation").animate({left: "30px"}, function(){
+      $("#text-div-animation").fadeIn(1000);
+    });
+  }
+});
