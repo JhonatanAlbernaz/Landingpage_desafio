@@ -544,6 +544,104 @@
     padding-left: 10px;
 }
 
+.height-900 {
+    height: 870px;
+    background-color: #F7F9FE !important;
+}
+
+.widht-730 {
+    width: 730px;
+    margin-left: 165px;
+    margin-top: 115px;
+}
+
+.subtitulo-quinta-section {
+    font-size: 1.125rem;
+    margin-bottom: .125rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+}
+
+.titulo-quinta-section {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #50658e;
+    font-weight: 700;
+    font-family: "Oswald",sans-serif;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+.color-tag-p {
+    color: #3d4b69;
+    line-height: 1.5;
+}
+
+.border-radius-image {
+    border-radius: 100px;
+    width: 120px;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+}
+
+.card-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.6875rem;
+    letter-spacing: -0.01em;
+    color: #3d4b69;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card-descricao {
+    color: #3d4b69;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    width: 256px;
+}
+
+.botao-quinta-section {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a81ea;
+    font-weight: bold;
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    width: 280px;
+    height: 45px;
+    margin-right: 30px;
+}
+
+.segundo-botao-quinta-section {
+    background-color: #F7F9FE !important;
+    padding-top: 50px;
+    font-weight: bold;
+    margin-left: -30px;
+    font-size: 1rem;
+}
+
+.texto-botao-quinta-section {
+    color: white;
+    text-decoration: none !important;
+}
+
+.texto-botao-quinta-section:hover {
+    color: white !important;
+}
+
+.segundo-texto-botao-quinta-section {
+    text-decoration: none !important;
+}
+
+.icone-quinta-section {
+    color: white !important;
+}
+
 @media (max-width: 320px) {
     .header-menu {
         background-color: white;
@@ -554,7 +652,7 @@
     }
     
     .margin-left-7 {
-        margin-left: 0em;
+        margin-left: 0.5em;
     }
     
     .background-image-menu {
@@ -740,7 +838,8 @@
         padding-top: 35px;
         font-family: 'Roboto', sans-serif;
         line-height: 26px;
-        width: 295px;
+        width: 319px;
+        font-size: 1.1em;
     }
     
     .botao-primeira-section {
@@ -796,8 +895,8 @@
         background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
         background-position: center;
         background-size: cover;
-        height: 199px;
-        margin-top: -900px;
+        height: 209px;
+        margin-top: -893px;
         margin-left: 79px;
     }
     
@@ -869,7 +968,7 @@
         font-size: 1.1rem;
         font-family: "Roboto",sans-serif;
         margin-bottom: 1rem;
-        width: 282px;
+        width: 328px;
     }
     
     .color-blue {
@@ -881,9 +980,9 @@
         border-radius: 4px;
         background: #fff;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
-        margin-top: 805px;
+        margin-top: 734px;
         width: 335px;
-        margin-left: -8px;
+        margin-left: 2px;
         height: 65px;
     }
     
@@ -957,7 +1056,7 @@
     .height-995 {
         height: 1835px;
         background-color: #F7F9FE !important;
-        width: 119%;
+        width: 124%;
     }
     
     .titulo-terceira-section {
@@ -985,7 +1084,7 @@
     
     .div-widht {
         width: 298px;
-        margin-left: 12px;
+        margin-left: 22px;
     }
     
     .color-blue-dank {
@@ -1044,7 +1143,7 @@
 
     .card-responsivo {
         width: 20.7rem;
-        margin-left: -6px;
+        margin-left: 2px;
         margin-bottom: 30px;
     }
 
@@ -1076,7 +1175,7 @@
     .widht-quarta-section {
         width: 336px;
         text-align: center;
-        margin-left: -8px;
+        margin-left: 1px;
         margin-top: 90px;
     }
     
@@ -1097,7 +1196,7 @@
     
     .widht-card {
         width: 21.5rem;
-        margin-left: -12px;
+        margin-left: -4px;
         margin-top: -70px;
     }
     
@@ -1177,6 +1276,117 @@
     .icone-botao-quarta-section {
         padding-right: 5px;
     }
+
+    .height-900 {
+        height: 2035px;
+        background-color: #F7F9FE !important;
+        width: 124%;
+    }
+    
+    .widht-730 {
+        width: 294px;
+        margin-left: 17px;
+        margin-top: 70px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 0.8rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.6rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+        width: 185px;
+        margin-left: 43px;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+        font-size: 1.2em;
+        width: 347px;
+        margin-left: -28px;
+    }
+
+    .widht-card-quinta-section {
+        width: 22.5rem !important;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.325rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 348px;
+        margin-left: -20px;
+        font-size: 1.2em;
+    }
+    
+    .botao-quinta-section {       
+        margin-top: 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 261px;
+        height: 50px;
+        margin-right: 37px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 25px;
+        font-weight: bold;
+        margin-left: 75px;
+        font-size: 0.9rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+        font-size: 0.9em;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
+    }
     
 }
 
@@ -1201,7 +1411,7 @@
         height: 40px;
         margin-top: 2em;
         cursor: pointer;
-        margin-left: 1em;
+        margin-left: 2.5em;
     }
     
     .link-menu {
@@ -1275,7 +1485,7 @@
     }
     
     .padding-top-1 {
-        padding-left: 4em;
+        padding-left: 5em;
         margin-top: -4.2em;
     }
 
@@ -1336,7 +1546,7 @@
     .titulo-primeira-section {
         display: flex;
         align-items: center;
-        font-size: 3.5em;
+        font-size: 3.8em;
         line-height: 1;
         vertical-align: middle;
         margin-bottom: 1rem;
@@ -1354,20 +1564,20 @@
     .span-primeira-section {
         display: flex;
         flex-direction: column;
-        margin-top: -4.3rem;
-        margin-left: 12.25rem;
+        margin-top: -4.5rem;
+        margin-left: 12.9rem;
         font-family: 'Oswald', sans-serif;
         line-height: 25px;
     }
     
     .sub-titulo-1 {
-        font-size: 1rem;
+        font-size: 1.16rem;
         color: #f86168;
         letter-spacing: 0.04em;
     }
     
     .sub-titulo-2 {
-        font-size: 1.6rem;
+        font-size: 2rem;
         color: #50658e;
     }
     
@@ -1376,10 +1586,11 @@
         padding-top: 35px;
         font-family: 'Roboto', sans-serif;
         line-height: 26px;
+        width: 343px;
     }
     
     .botao-primeira-section {
-        width: 135px;
+        width: 165px;
         height: 38px;
         background-color: #007bff;
         border-radius: 47px;
@@ -1391,7 +1602,7 @@
     }
     
     .segundo-botao-primeira-section {
-        margin-left: 20px;
+        margin-left: 1px;
         background-color: white;
         padding-top: 5px;
         width: 135px;
@@ -1402,14 +1613,14 @@
         color: white !important;
         text-decoration: none !important;
         font-family: 'Open Sans', sans-serif;
-        font-size: 11px;
+        font-size: 13px;
     }
     
     .segundo-texto-botao {
         color: #2a81ea;
         text-decoration: none !important;
         font-family: 'Open Sans', sans-serif;
-        font-size: 11px;
+        font-size: 13px;
     }
     
     .fa-shield-alt {
@@ -1430,10 +1641,10 @@
     .background-segunda-imagem-primeira-section {
         background-image: url(http://demo.themenio.com/kovid19/images/gfx/header-a.png);
         background-position: center;
-        background-size: cover;
-        height: 290px;
-        margin-top: -930px;
-        margin-left: 15px;
+        background-size: cover; 
+        height: 265px;
+        margin-top: -885px;
+        margin-left: 40px;
     }
     
     .titulo-row-primeira-section {
@@ -1469,7 +1680,7 @@
     }
 
     .height-672 {
-        height: 1200px;
+        height: 1240px;
     }
     
     .subtitulo-segunda-section {
@@ -1480,7 +1691,7 @@
         letter-spacing: .1em;
         font-family: "Roboto",sans-serif;
         font-weight: 700;
-        margin-top: 115px;
+        margin-top: 50px;
     }
     
     .titulo-segunda-section {
@@ -1499,13 +1710,14 @@
     .descricao-segunda-section {
         color: #3d4b69;
         padding-top: 1.25rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: "Roboto",sans-serif;
         margin-bottom: 1rem;
     }
     
     .color-blue {
         color: #3d4b69;
+        font-size: 1.1em;
     }
     
     .div-border {
@@ -1513,10 +1725,10 @@
         border-radius: 4px;
         background: #fff;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
-        margin-top: 740px;
+        margin-top: 780px;
         width: 300px;
         margin-left: 15px;
-        height: 65px;
+        height: 65px;;
     }
     
     .div-padding {
@@ -1589,7 +1801,7 @@
     .height-995 {
         height: 1835px;
         background-color: #F7F9FE !important;
-        width: 106%;
+        width: 110%;
     }
     
     .titulo-terceira-section {
@@ -1660,7 +1872,7 @@
         border-radius: 2rem;
         line-height: 1.25rem;
         margin-top: 50px;
-        margin-left: 12px;
+        margin-left: 30px;
     }
     
     .texto-botao-terceira-section {
@@ -1676,7 +1888,7 @@
 
     .card-responsivo {
         width: 20.5rem;
-        margin-left: 6px;
+        margin-left: 12px;
         margin-bottom: 30px;
     }
 
@@ -1808,6 +2020,113 @@
     
     .icone-botao-quarta-section {
         padding-right: 5px;
+    }
+
+    .height-900 {
+        height: 1760px;
+        background-color: #F7F9FE !important;
+        width: 110%;
+    }
+    
+    .widht-730 {
+        width: 342px;
+        margin-left: 3px;
+        margin-top: 70px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 0.7rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.3rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+        width: 185px;
+        margin-left: 78px;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+    }
+
+    .widht-card-quinta-section {
+        width: 22.5rem !important;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 389px;
+        margin-left: -38px;
+    }
+    
+    .botao-quinta-section {       
+        margin-top: 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 230px;
+        height: 40px;
+        margin-right: 65px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 25px;
+        font-weight: bold;
+        margin-left: 100px;
+        font-size: 0.8rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+        font-size: 0.8em;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
     }
 }
 
@@ -2433,6 +2752,112 @@
     .icone-botao-quarta-section {
         padding-right: 5px;
     }
+
+    .height-900 {
+        height: 1740px;
+        background-color: #F7F9FE !important;
+    }
+    
+    .widht-730 {
+        width: 371px;
+        margin-left: -5px;
+        margin-top: 70px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 0.7rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.3rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+        width: 185px;
+        margin-left: 91px;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+    }
+
+    .widht-card-quinta-section {
+        width: 22.5rem !important;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 389px;
+        margin-left: -30px;
+    }
+    
+    .botao-quinta-section {       
+        margin-top: 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 230px;
+        height: 40px;
+        margin-right: 65px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 25px;
+        font-weight: bold;
+        margin-left: 100px;
+        font-size: 0.8rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+        font-size: 0.8em;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -3040,6 +3465,105 @@
     .icone-botao-quarta-section {
         padding-left: 10px;
     }
+
+    .height-900 {
+        height: 1145px;
+        background-color: #F7F9FE !important;
+    }
+    
+    .widht-730 {
+        width: 590px;
+        margin-left: 45px;
+        margin-top: 110px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 1.125rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 335px;
+        margin-left: -40px;
+    }
+    
+    .botao-quinta-section {
+        margin-top: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 280px;
+        height: 45px;
+        margin-right: -20px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 50px;
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
+    }
     
 }
 
@@ -3564,6 +4088,104 @@
     
     .icone-botao-quarta-section {
         padding-left: 10px;
+    }
+
+    .height-900 {
+        height: 870px;
+        background-color: #F7F9FE !important;
+    }
+    
+    .widht-730 {
+        width: 730px;
+        margin-left: 165px;
+        margin-top: 115px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 1.125rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 256px;
+    }
+    
+    .botao-quinta-section {
+        margin-top: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 280px;
+        height: 45px;
+        margin-right: 30px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 50px;
+        font-weight: bold;
+        margin-left: -30px;
+        font-size: 1rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
     }
 }
 
@@ -4091,5 +4713,103 @@
     
     .icone-botao-quarta-section {
         padding-left: 10px;
+    }
+
+    .height-900 {
+        height: 870px;
+        background-color: #F7F9FE !important;
+    }
+    
+    .widht-730 {
+        width: 730px;
+        margin-left: 165px;
+        margin-top: 115px;
+    }
+    
+    .subtitulo-quinta-section {
+        font-size: 1.125rem;
+        margin-bottom: .125rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #2a81ea;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+    }
+    
+    .titulo-quinta-section {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: #50658e;
+        font-weight: 700;
+        font-family: "Oswald",sans-serif;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+    
+    .color-tag-p {
+        color: #3d4b69;
+        line-height: 1.5;
+    }
+    
+    .border-radius-image {
+        border-radius: 100px;
+        width: 120px;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    }
+    
+    .card-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.6875rem;
+        letter-spacing: -0.01em;
+        color: #3d4b69;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    
+    .card-descricao {
+        color: #3d4b69;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        width: 256px;
+    }
+    
+    .botao-quinta-section {
+        margin-top: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2a81ea;
+        font-weight: bold;
+        padding: 0.5rem 1.25rem;
+        border-radius: 2rem;
+        width: 280px;
+        height: 45px;
+        margin-right: 30px;
+    }
+    
+    .segundo-botao-quinta-section {
+        background-color: #F7F9FE !important;
+        padding-top: 50px;
+        font-weight: bold;
+        margin-left: -30px;
+        font-size: 1rem;
+    }
+    
+    .texto-botao-quinta-section {
+        color: white;
+        text-decoration: none !important;
+    }
+    
+    .texto-botao-quinta-section:hover {
+        color: white !important;
+    }
+    
+    .segundo-texto-botao-quinta-section {
+        text-decoration: none !important;
+    }
+    
+    .icone-quinta-section {
+        color: white !important;
     }
 }
