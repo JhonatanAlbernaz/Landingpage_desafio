@@ -76,4 +76,4 @@ $(window).scroll(function(){
       $("#text-div-animation").fadeIn(1000);
     });
   }
-}); 
+});
