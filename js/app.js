@@ -21,7 +21,7 @@ function myFunction(x) {
 
 var menu_aberto_aberto = 0;
 
-$('#menu-responsivo').on('click', function(e){
+$("#menu-responsivo").on("click", function(e){
 
 	if(menu_aberto_aberto == 0){
 		abrirMenu();
@@ -43,10 +43,10 @@ function fecharMenu(){
 
 $(document).ready(function(){
 
-  $('.counter').each(function() {
+  $(".counter").each(function() {
     var $this = $(this),
 
-        countTo = $this.attr('data-count');
+        countTo = $this.attr("data-count");
 
     $({ countNum: $this.text()}).animate({
       countNum: countTo
@@ -54,7 +54,7 @@ $(document).ready(function(){
   
     {
       duration: 3000,
-      easing:'linear',
+      easing:"linear",
       step: function() {
         $this.text(Math.floor(this.countNum));
       },
@@ -93,4 +93,30 @@ function openCity(evt, cityName) {
 
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+
+var div_aberta = 0;
+
+$("#div-id-principal").on("click", function(e){
+
+	if(div_aberta == 0){
+		abrirDiv();
+	}else{
+		fecharDiv();
+	}
+	
+});
+
+function abrirDiv(){
+  $("#div-id-conteudo").fadeIn(1000);
+  $("#icone-1").addClass("d-none");
+  $("#icone-2").removeClass("d-none");
+	div_aberta = 1;
+}
+
+function fecharDiv(){
+	$("#div-id-conteudo").hide(500);
+  $("#icone-1").removeClass("d-none");
+  $("#icone-2").addClass("d-none");
+	div_aberta = 0;
 }

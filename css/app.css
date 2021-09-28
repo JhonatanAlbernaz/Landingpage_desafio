@@ -1117,75 +1117,60 @@
     font-weight: 700;
 }
 
-.div-tab-border {
+* {box-sizing: border-box}
+
+.tab {
     border-radius: 4px;
     float: left;
     border: 2px solid #dee2e6;
     width: 100%;
     height: 50px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     background-color: white;
+    padding-left: 8px;
 }
 
-.div-tab-border button {
-    background-color: white;
-    color: #50658e;
-    padding-right: 251px;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    display: flex;
-    padding-top: 11px;
-}
-
-.div-tab-border button:hover {
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
     width: 100%;
-    border-radius: 2px;
-    border: 2px solid #dee2e6;
-    height: 47px;
-    border-color: #2a81ea;
-    color: #2a81ea;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: 13px;
 }
 
-#button-1.active {
-    border-color: #2a81ea;
-    height: 47px;
-    border-radius: 2px;
+.tab button:hover {
+    background-color: white;
+    padding-top: 10px;
+    border: 2px solid #2a81ea !important;
     color: #2a81ea;
+    width: 103%;
+    margin-left: -9px;
+    padding-left: 11px;
+    height: 47px;
 }
 
-#button-2.active {
-    border-color: #2a81ea;
+.tab button.active {
     height: 47px;
-    border-radius: 2px;
+    border: 2px solid #2a81ea !important;
     color: #2a81ea;
+    padding-top: 9px;
+    width: 103%;
+    margin-left: -8px;
+    padding-left: 11px;
 }
 
-#button-3.active {
-    border-color: #2a81ea;
-    height: 47px;
-    border-radius: 2px;
-    color: #2a81ea;
-}
-
-#button-4.active {
-    border-color: #2a81ea;
-    height: 47px;
-    border-radius: 2px;
-    color: #2a81ea;
-}
-
-#button-5.active {
-    border-color: #2a81ea;
-    height: 47px;
-    border-radius: 2px;
-    color: #2a81ea;
-}
-
-#button-6.active {
-    border-color: #2a81ea;
-    height: 47px;
-    border-radius: 2px;
-    color: #2a81ea;
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 322px;
+    margin-left: 4px;
 }
 
 .icone-play-10-section {
@@ -1224,16 +1209,44 @@
     margin-top: 7px;
 }
 
-.height-232 {
-    height: 232px;
+.div-tabcontent {
+    border: 1px solid #e7e8ff;
+    transition: all .4s;
+    height: 61px;
+    width: 728px;
+    margin-left: -12px;
 }
 
-.tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 100%;
-    height: 300px;
+.titulo-div-tabcontent {
+    padding: 1.25rem 4.375rem 1.25rem 1.875rem;
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #465675;
+    background: #f7fafe;
+}
+
+.titulo-div-tabcontent.active {
+    color: #2a81ea;
+}
+
+.div-tabcontent-icone {
+    font-size: 13px;
+    position: absolute;
+    top: 0.8rem;
+    right: 1.325rem;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #fff;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.fa-window-minimize {
+    display: none;
 }
 
 @media (max-width: 320px) {
