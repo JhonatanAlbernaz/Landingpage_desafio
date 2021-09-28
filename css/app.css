@@ -1086,6 +1086,156 @@
     left: -175%;
 }
 
+.height-858 {
+    height: 858px;
+}
+
+.height-503 {
+    height: 503px;
+}
+
+.margin-top-120 {
+    margin-top: 120px;
+}
+
+.titulo-decima-section {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #50658e;
+    font-weight: 700;
+    font-family: "Oswald",sans-serif;
+    line-height: 1.3;
+}
+
+.subtitulo-decima-section {
+    font-size: 1.125rem;
+    margin-bottom: .125rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+}
+
+.div-tab-border {
+    border-radius: 4px;
+    float: left;
+    border: 2px solid #dee2e6;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 6px;
+    background-color: white;
+}
+
+.div-tab-border button {
+    background-color: white;
+    color: #50658e;
+    padding-right: 251px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    padding-top: 11px;
+}
+
+.div-tab-border button:hover {
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #dee2e6;
+    height: 47px;
+    border-color: #2a81ea;
+    color: #2a81ea;
+}
+
+#button-1.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+#button-2.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+#button-3.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+#button-4.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+#button-5.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+#button-6.active {
+    border-color: #2a81ea;
+    height: 47px;
+    border-radius: 2px;
+    color: #2a81ea;
+}
+
+.icone-play-10-section {
+    font-size: 8px;
+    margin-left: 70px;
+    margin-top: 7px;
+}
+
+.icone-play-2-10-section {
+    font-size: 8px;
+    margin-left: 200px;
+    margin-top: 7px;
+}
+
+.icone-play-3-10-section {
+    font-size: 8px;
+    margin-left: 140px;
+    margin-top: 7px;
+}
+
+.icone-play-4-10-section {
+    font-size: 8px;
+    margin-left: 163px;
+    margin-top: 7px;
+}
+
+.icone-play-5-10-section {
+    font-size: 8px;
+    margin-left: 107px;
+    margin-top: 7px;
+}
+
+.icone-play-6-10-section {
+    font-size: 8px;
+    margin-left: 111px;
+    margin-top: 7px;
+}
+
+.height-232 {
+    height: 232px;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 300px;
+}
+
 @media (max-width: 320px) {
     .header-menu {
         background-color: white;
