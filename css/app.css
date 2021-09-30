@@ -1140,7 +1140,7 @@ ol, ul {
 }
 
 .nav-tabs-btns .nav-link:hover, .nav-tabs-btns .nav-link.active {
-    color: #2a81ea;
+    color: #2a81ea !important;
     border-color: #2a81ea;
 }
 
@@ -1207,7 +1207,7 @@ ol, ul {
 }
 
 .tab-content>.tab-pane {
-    display: block;
+    display: none;
 }
 
 .fade {
@@ -1264,6 +1264,36 @@ ol, ul {
 
 a:link, a:visited {
     text-decoration: none;
+}
+
+.font-size-1 {
+    font-size: 1rem;
+}
+
+.icone-circle {
+    position: relative;
+    top: 33rem;
+    left: 68px;
+    content: "";
+    font-size: .5rem;
+    line-height: 1.5rem;
+    color: #3d4b69;
+}
+
+.margin-left-39 {
+    margin-left: -39px;
+}
+
+.margin-left-24 {
+    margin-left: -25px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
 }
 
 @media (max-width: 320px) {

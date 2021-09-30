@@ -77,3 +77,39 @@ $(window).scroll(function(){
     });
   }
 });
+
+$("#botao-basics").on("click", function(e){
+
+    $("#resultado").html(basics_01);
+
+});
+  
+$("#botao-spreads").on("click", function(e){
+
+  $("#resultado").html(basics_02);
+
+});
+  
+$("#botao-protect").on("click", function(e){
+
+  $("#resultado").html(basics_03);
+
+});
+  
+$("#botao-symptoms").on("click", function(e){
+
+  $("#resultado").html(basics_04);
+
+});
+  
+$("#botao-outbreak").on("click", function(e){
+
+  $("#resultado").html(basics_05);
+
+});
+  
+$("#botao-myth").on("click", function(e){
+
+  $("#resultado").html(basics_06);
+
+});
