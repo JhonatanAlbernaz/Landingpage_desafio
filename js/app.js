@@ -112,4 +112,4 @@ $("#botao-myth").on("click", function(e){
 
   $("#resultado").html(basics_06);
 
-}); 
+});
