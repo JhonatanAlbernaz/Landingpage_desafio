@@ -1344,6 +1344,89 @@ a:link, a:visited {
     font-weight: 500;
 }
 
+.height-583 {
+    height: 583px;
+    background-color: #151c2e !important;
+}
+
+.height-335 {
+    height: 335px;
+}
+
+.background-imagem-rodape {
+    background-image: url(http://demo.themenio.com/kovid19/assets/images/shape-c.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+.div-texto-rodape {
+    padding-top: 1.125rem;
+    padding-bottom: 0.675rem;
+    color: #b2bfe0;
+    font-size: .875rem;
+    line-height: 1.67;
+    margin-bottom: 0.5rem;
+}
+
+.border-icones {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #50658e;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.border-icones:hover {
+    background-color: #2a81ea;
+    color: white;
+}
+
+.color-icones {
+    font-size: 12px;
+    color: white;
+}
+
+.div-espacamento-rodape {
+    margin-left: -38px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.link-col-2-rodape {
+    color: #b2bfe0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    outline: 0 none;
+    transition: all 0.5s;
+}
+
+.link-col-2-rodape:hover {
+    color: #2a81ea;
+}
+
+.border-top {
+    border-top: 1px solid rgba(247,248,255,0.1);
+}
+
+.font-size-link {
+    color: #b2bfe0;
+    font-size: .875rem;
+    transition: all 0.5s;
+}
+
+.tag-p-rodape {
+    padding-top: 1rem;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7d92bb;
+    width: 867px;
+}
+
 @media (max-width: 320px) {
     .header-menu {
         background-color: white;
@@ -6335,6 +6418,38 @@ a:link, a:visited {
         color: #50658e;
         text-transform: uppercase;
     }
+
+    .border-icones {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background: #50658e;
+        color: #fff;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .border-top {
+        border-top: 1px solid #dee2e6!important;
+        margin-top: 160px;
+    }
+
+    .tag-p-rodape {
+        padding-top: 1rem;
+        font-size: 12px;
+        line-height: 20px;
+        color: #7d92bb;
+        width: 696px;
+    }
+
+    .height-583 {
+        height: 760px;
+        background-color: #151c2e !important;
+        width: 105%;
+    }
     
 }
 
@@ -7437,6 +7552,29 @@ a:link, a:visited {
         width: 18em;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         height: 440px;
+    }
+
+    .height-335 {
+        height: 335px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .border-top {
+        border-top: 1px solid #dee2e6!important;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .espacamento-row {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .height-583 {
+        height: 583px;
+        background-color: #151c2e !important;
+        width: 103%;
     }
 }
 
