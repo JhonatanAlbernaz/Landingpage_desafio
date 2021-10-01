@@ -33,6 +33,7 @@ $("#menu-responsivo").on("click", function(e){
 
 function abrirMenu(){
 	$("#row-responsivo").show(2500);
+  $('#row-responsivo').animate({left: '70px'});
 	menu_aberto_aberto = 1;
 }
 
@@ -113,3 +114,11 @@ $("#botao-myth").on("click", function(e){
   $("#resultado").html(basics_06);
 
 }); 
+
+$("#teste_01").on("mouseover", function(e) {
+  $("#teste_02").removeClass("d-none");
+});
+
+$("#teste_01").on("mouseleave", function(e) {
+  $("#teste_02").addClass("d-none");
+});
