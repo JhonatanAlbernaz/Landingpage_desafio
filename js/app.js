@@ -15,9 +15,13 @@ function scrollFunction() {
   }
 }
 
+//====================================================================//
+
 function myFunction(x) {
     x.classList.toggle("change");
 }
+
+//====================================================================//
 
 var menu_aberto_aberto = 0;
 
@@ -41,6 +45,8 @@ function fecharMenu(){
 	$("#row-responsivo").hide(2500);
 	menu_aberto_aberto = 0;
 }
+
+//====================================================================//
 
 $(document).ready(function(){
 
@@ -66,6 +72,7 @@ $(document).ready(function(){
   });
 });
 
+//====================================================================//
 
 $(window).scroll(function(){
   var scroll = $(window).scrollTop();
@@ -79,46 +86,198 @@ $(window).scroll(function(){
   }
 });
 
+//====================================================================//
+
 $("#botao-basics").on("click", function(e){
 
-    $("#resultado").html(basics_01);
+  $("#botao-basics").css("border", "2px solid #2a81ea");
+  $("#botao-basics").css("color", "#2a81ea");
+  $("#botao-spreads").css("border", "");
+  $("#botao-spreads").css("color", "");
+  $("#botao-protect").css("border", "");
+  $("#botao-protect").css("color", "");
+  $("#botao-symptoms").css("border", "");
+  $("#botao-symptoms").css("color", "");
+  $("#botao-outbreak").css("border", "");
+  $("#botao-outbreak").css("color", "");
+  $("#botao-myth").css("border", "");
+  $("#botao-myth").css("color", "");
+  $("#resultado").html(basics_01);
 
 });
+
+//====================================================================//
   
 $("#botao-spreads").on("click", function(e){
 
+  $("#botao-spreads").css("border", "2px solid #2a81ea");
+  $("#botao-spreads").css("color", "#2a81ea");
+  $("#botao-basics").css("border", "");
+  $("#botao-basics").css("color", "");
+  $("#botao-protect").css("border", "");
+  $("#botao-protect").css("color", "");
+  $("#botao-symptoms").css("border", "");
+  $("#botao-symptoms").css("color", "");
+  $("#botao-outbreak").css("border", "");
+  $("#botao-outbreak").css("color", "");
+  $("#botao-myth").css("border", "");
+  $("#botao-myth").css("color", "");
   $("#resultado").html(basics_02);
 
 });
+
+//====================================================================//
   
 $("#botao-protect").on("click", function(e){
 
+  $("#botao-protect").css("border", "2px solid #2a81ea");
+  $("#botao-protect").css("color", "#2a81ea");
+  $("#botao-basics").css("border", "");
+  $("#botao-basics").css("color", "");
+  $("#botao-spreads").css("border", "");
+  $("#botao-spreads").css("color", "");
+  $("#botao-symptoms").css("border", "");
+  $("#botao-symptoms").css("color", "");
+  $("#botao-outbreak").css("border", "");
+  $("#botao-outbreak").css("color", "");
+  $("#botao-myth").css("border", "");
+  $("#botao-myth").css("color", "");
   $("#resultado").html(basics_03);
 
 });
+
+//====================================================================//
   
 $("#botao-symptoms").on("click", function(e){
 
+  $("#botao-symptoms").css("border", "2px solid #2a81ea");
+  $("#botao-symptoms").css("color", "#2a81ea");
+  $("#botao-basics").css("border", "");
+  $("#botao-basics").css("color", "");
+  $("#botao-spreads").css("border", "");
+  $("#botao-spreads").css("color", "");
+  $("#botao-protect").css("border", "");
+  $("#botao-protect").css("color", "");
+  $("#botao-outbreak").css("border", "");
+  $("#botao-outbreak").css("color", "");
+  $("#botao-myth").css("border", "");
+  $("#botao-myth").css("color", "");
   $("#resultado").html(basics_04);
 
 });
+
+//====================================================================//
   
 $("#botao-outbreak").on("click", function(e){
 
+  $("#botao-outbreak").css("border", "2px solid #2a81ea");
+  $("#botao-outbreak").css("color", "#2a81ea");
+  $("#botao-basics").css("border", "");
+  $("#botao-basics").css("color", "");
+  $("#botao-spreads").css("border", "");
+  $("#botao-spreads").css("color", "");
+  $("#botao-protect").css("border", "");
+  $("#botao-protect").css("color", "");
+  $("#botao-symptoms").css("border", "");
+  $("#botao-symptoms").css("color", "");
+  $("#botao-myth").css("border", "");
+  $("#botao-myth").css("color", "");
   $("#resultado").html(basics_05);
 
 });
+
+//====================================================================//
   
 $("#botao-myth").on("click", function(e){
 
+  $("#botao-myth").css("border", "2px solid #2a81ea");
+  $("#botao-myth").css("color", "#2a81ea");
+  $("#botao-basics").css("border", "");
+  $("#botao-basics").css("color", "");
+  $("#botao-spreads").css("border", "");
+  $("#botao-spreads").css("color", "");
+  $("#botao-protect").css("border", "");
+  $("#botao-protect").css("color", "");
+  $("#botao-symptoms").css("border", "");
+  $("#botao-symptoms").css("color", "");
+  $("#botao-outbreak").css("border", "");
+  $("#botao-outbreak").css("color", "");
   $("#resultado").html(basics_06);
 
-}); 
-
-$("#teste_01").on("mouseover", function(e) {
-  $("#teste_02").removeClass("d-none");
 });
 
-$("#teste_01").on("mouseleave", function(e) {
-  $("#teste_02").addClass("d-none");
-}); 
+//====================================================================//
+
+$("#imagem_animation_01").on("mouseover", function(e) {
+  $("#texto_animation_02").removeClass("d-none");
+});
+
+$("#imagem_animation_01").on("mouseleave", function(e) {
+  $("#texto_animation_02").addClass("d-none");
+});
+
+//====================================================================//
+
+$("#div-boder").on("mouseover", function(e) {
+  $("#div-boder").css("border", "3px solid #2a81ea");
+  $("#div-boder").css("transition", "all .4s");
+  $("#div-boder").css("border-radius", "5px");
+  $("#imagem-animada").css("max-width", "100%");
+  $("#imagem-animada").css("-moz-transition", "all 0.3s");
+  $("#imagem-animada").css("-webkit-transition", "all 0.3s");
+  $("#imagem-animada").css("transition", "all 0.3s");
+  $("#imagem-animada").css("-moz-transform", "scale(1.1)");
+  $("#imagem-animada").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.2)");
+});
+
+$("#div-boder").on("mouseleave", function(e) {
+  $("#div-boder").css("border", "3px solid transparent");
+  $("#imagem-animada").css("-moz-transform", "");
+  $("#imagem-animada").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+});
+
+//====================================================================//
+
+$("#div-boder-02").on("mouseover", function(e) {
+  $("#div-boder-02").css("border", "3px solid #2a81ea");
+  $("#div-boder-02").css("border-radius", "5px");
+  $("#div-boder-02").css("transition", "all .4s");
+  $("#imagem-animada-02").css("max-width", "100%");
+  $("#imagem-animada-02").css("-moz-transition", "all 0.3s");
+  $("#imagem-animada-02").css("-webkit-transition", "all 0.3s");
+  $("#imagem-animada-02").css("transition", "all 0.3s");
+  $("#imagem-animada-02").css("-moz-transform", "scale(1.1)");
+  $("#imagem-animada-02").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.2)");
+});
+
+$("#div-boder-02").on("mouseleave", function(e) {
+  $("#div-boder-02").css("border", "3px solid transparent");
+  $("#imagem-animada-02").css("-moz-transform", "");
+  $("#imagem-animada-02").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+});
+
+//====================================================================//
+
+$("#div-boder-03").on("mouseover", function(e) {
+  $("#div-boder-03").css("border", "3px solid #2a81ea");
+  $("#div-boder-03").css("border-radius", "5px");
+  $("#div-boder-03").css("transition", "all .4s");
+  $("#imagem-animada-03").css("max-width", "100%");
+  $("#imagem-animada-03").css("-moz-transition", "all 0.3s");
+  $("#imagem-animada-03").css("-webkit-transition", "all 0.3s");
+  $("#imagem-animada-03").css("transition", "all 0.3s");
+  $("#imagem-animada-03").css("-moz-transform", "scale(1.1)");
+  $("#imagem-animada-03").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.2)");
+});
+
+$("#div-boder-03").on("mouseleave", function(e) {
+  $("#div-boder-03").css("border", "3px solid transparent");
+  $("#imagem-animada-03").css("-moz-transform", "");
+  $("#imagem-animada-03").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+});
