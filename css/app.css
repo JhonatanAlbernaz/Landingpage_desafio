@@ -2203,7 +2203,7 @@ a:link, a:visited {
         background-color: #F7F9FE !important;
         padding-top: 25px;
         font-weight: bold;
-        margin-left: 75px;
+        margin-left: 57px;
         font-size: 0.9rem;
     }
     
@@ -3481,7 +3481,7 @@ a:link, a:visited {
         margin-left: -38px;
     }
     
-    .botao-quinta-section {       
+    .botao-quinta-section {
         margin-top: 0px;
         display: inline-flex;
         align-items: center;
@@ -3493,6 +3493,7 @@ a:link, a:visited {
         width: 230px;
         height: 40px;
         margin-right: 65px;
+        margin-left: 55px;
     }
     
     .segundo-botao-quinta-section {
@@ -4772,7 +4773,7 @@ a:link, a:visited {
         margin-left: -30px;
     }
     
-    .botao-quinta-section {       
+    .botao-quinta-section {
         margin-top: 0px;
         display: inline-flex;
         align-items: center;
@@ -4783,7 +4784,7 @@ a:link, a:visited {
         border-radius: 2rem;
         width: 230px;
         height: 40px;
-        margin-right: 65px;
+        margin-left: 55px;
     }
     
     .segundo-botao-quinta-section {
