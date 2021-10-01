@@ -121,4 +121,4 @@ $("#teste_01").on("mouseover", function(e) {
 
 $("#teste_01").on("mouseleave", function(e) {
   $("#teste_02").addClass("d-none");
-});
+}); 

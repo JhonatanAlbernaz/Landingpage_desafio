@@ -1477,6 +1477,10 @@ a:link, a:visited {
     padding-right: 24px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 320px) {
     .header-menu {
         background-color: white;
