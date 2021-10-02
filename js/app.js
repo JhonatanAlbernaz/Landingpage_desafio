@@ -403,3 +403,87 @@ $("#img-animada-06").on("mouseleave", function(e) {
 });
 
 //====================================================================//
+
+$("#img-animation-5-section").on("mouseover", function(e) {
+  $("#img-animation-5-section").css("max-width", "100%");
+  $("#img-animation-5-section").css("-moz-transition", "all 0.3s");
+  $("#img-animation-5-section").css("-webkit-transition", "all 0.3s");
+  $("#img-animation-5-section").css("transition", "all 0.3s");
+  $("#img-animation-5-section").css("-moz-transform", "scale(1.1)");
+  $("#img-animation-5-section").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#div-animation-5-section").css("border", "3px solid #2a81ea");
+  $("#div-animation-5-section").css("border-radius", "5px");
+});
+
+$("#img-animation-5-section").on("mouseleave", function(e) {
+  $("#img-animation-5-section").css("-moz-transform", "");
+  $("#img-animation-5-section").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#div-animation-5-section").css("border", "");
+});
+
+//====================================================================//
+
+$("#img-animation-5-section-02").on("mouseover", function(e) {
+  $("#img-animation-5-section-02").css("max-width", "100%");
+  $("#img-animation-5-section-02").css("-moz-transition", "all 0.3s");
+  $("#img-animation-5-section-02").css("-webkit-transition", "all 0.3s");
+  $("#img-animation-5-section-02").css("transition", "all 0.3s");
+  $("#img-animation-5-section-02").css("-moz-transform", "scale(1.1)");
+  $("#img-animation-5-section-02").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#div-animation-5-section-02").css("border", "3px solid #2a81ea");
+  $("#div-animation-5-section-02").css("border-radius", "5px");
+});
+
+$("#img-animation-5-section-02").on("mouseleave", function(e) {
+  $("#img-animation-5-section-02").css("-moz-transform", "");
+  $("#img-animation-5-section-02").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#div-animation-5-section-02").css("border", "");
+});
+
+//====================================================================//
+
+$("#img-animation-5-section-03").on("mouseover", function(e) {
+  $("#img-animation-5-section-03").css("max-width", "100%");
+  $("#img-animation-5-section-03").css("-moz-transition", "all 0.3s");
+  $("#img-animation-5-section-03").css("-webkit-transition", "all 0.3s");
+  $("#img-animation-5-section-03").css("transition", "all 0.3s");
+  $("#img-animation-5-section-03").css("-moz-transform", "scale(1.1)");
+  $("#img-animation-5-section-03").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#div-animation-5-section-03").css("border", "3px solid #2a81ea");
+  $("#div-animation-5-section-03").css("border-radius", "5px");
+});
+
+$("#img-animation-5-section-03").on("mouseleave", function(e) {
+  $("#img-animation-5-section-03").css("-moz-transform", "");
+  $("#img-animation-5-section-03").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#div-animation-5-section-03").css("border", "");
+});
+
+//====================================================================//
+
+$("#img-animation-5-section-04").on("mouseover", function(e) {
+  $("#img-animation-5-section-04").css("max-width", "100%");
+  $("#img-animation-5-section-04").css("-moz-transition", "all 0.3s");
+  $("#img-animation-5-section-04").css("-webkit-transition", "all 0.3s");
+  $("#img-animation-5-section-04").css("transition", "all 0.3s");
+  $("#img-animation-5-section-04").css("-moz-transform", "scale(1.1)");
+  $("#img-animation-5-section-04").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#div-animation-5-section-04").css("border", "3px solid #2a81ea");
+  $("#div-animation-5-section-04").css("border-radius", "5px");
+});
+
+$("#img-animation-5-section-04").on("mouseleave", function(e) {
+  $("#img-animation-5-section-04").css("-moz-transform", "");
+  $("#img-animation-5-section-04").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#div-animation-5-section-04").css("border", "");
+});
+
+//====================================================================//

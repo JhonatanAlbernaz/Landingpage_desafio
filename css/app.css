@@ -1479,7 +1479,7 @@ a:link, a:visited {
 
 html {
     scroll-behavior: smooth;
-} 
+}
 
 @media (max-width: 320px) {
     .header-menu {
@@ -8857,4 +8857,9 @@ html {
         top: 50%;
         left: -175%;
     }
+
+
+.margin-top-1 {
+    margin-top: 1.5rem!important;
+}
 }
