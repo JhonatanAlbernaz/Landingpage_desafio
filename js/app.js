@@ -281,3 +281,125 @@ $("#div-boder-03").on("mouseleave", function(e) {
   $("#imagem-animada-03").css("-webkit-transform", "");
   $("#transform").css("border-radius", "");
 });
+
+//====================================================================//
+
+$("#img-animada-01").on("mouseover", function(e) {
+  $("#img-animada-01").css("max-width", "100%");
+  $("#img-animada-01").css("-moz-transition", "all 0.3s");
+  $("#img-animada-01").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-01").css("transition", "all 0.3s");
+  $("#img-animada-01").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-01").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color").css("color", "#2a81ea");
+});
+
+$("#img-animada-01").on("mouseleave", function(e) {
+  $("#img-animada-01").css("-moz-transform", "");
+  $("#img-animada-01").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color").css("color", "#3d4b69");
+});
+
+//====================================================================//
+
+$("#img-animada-02").on("mouseover", function(e) {
+  $("#img-animada-02").css("max-width", "100%");
+  $("#img-animada-02").css("-moz-transition", "all 0.3s");
+  $("#img-animada-02").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-02").css("transition", "all 0.3s");
+  $("#img-animada-02").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-02").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color-02").css("color", "#2a81ea");
+});
+
+$("#img-animada-02").on("mouseleave", function(e) {
+  $("#img-animada-02").css("-moz-transform", "");
+  $("#img-animada-02").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color-02").css("color", "#3d4b69");
+});
+
+//====================================================================//
+
+$("#img-animada-03").on("mouseover", function(e) {
+  $("#img-animada-03").css("max-width", "100%");
+  $("#img-animada-03").css("-moz-transition", "all 0.3s");
+  $("#img-animada-03").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-03").css("transition", "all 0.3s");
+  $("#img-animada-03").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-03").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color-03").css("color", "#2a81ea");
+});
+
+$("#img-animada-03").on("mouseleave", function(e) {
+  $("#img-animada-03").css("-moz-transform", "");
+  $("#img-animada-03").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color-03").css("color", "#3d4b69");
+});
+
+//====================================================================//
+
+$("#img-animada-04").on("mouseover", function(e) {
+  $("#img-animada-04").css("max-width", "100%");
+  $("#img-animada-04").css("-moz-transition", "all 0.3s");
+  $("#img-animada-04").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-04").css("transition", "all 0.3s");
+  $("#img-animada-04").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-04").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color-04").css("color", "#2a81ea");
+});
+
+$("#img-animada-04").on("mouseleave", function(e) {
+  $("#img-animada-04").css("-moz-transform", "");
+  $("#img-animada-04").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color-04").css("color", "#3d4b69");
+});
+
+//====================================================================//
+
+$("#img-animada-05").on("mouseover", function(e) {
+  $("#img-animada-05").css("max-width", "100%");
+  $("#img-animada-05").css("-moz-transition", "all 0.3s");
+  $("#img-animada-05").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-05").css("transition", "all 0.3s");
+  $("#img-animada-05").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-05").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color-05").css("color", "#2a81ea");
+});
+
+$("#img-animada-05").on("mouseleave", function(e) {
+  $("#img-animada-05").css("-moz-transform", "");
+  $("#img-animada-05").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color-05").css("color", "#3d4b69");
+});
+
+//====================================================================//
+
+$("#img-animada-06").on("mouseover", function(e) {
+  $("#img-animada-06").css("max-width", "100%");
+  $("#img-animada-06").css("-moz-transition", "all 0.3s");
+  $("#img-animada-06").css("-webkit-transition", "all 0.3s");
+  $("#img-animada-06").css("transition", "all 0.3s");
+  $("#img-animada-06").css("-moz-transform", "scale(1.1)");
+  $("#img-animada-06").css("-webkit-transform", "scale(1.1)");
+  $("#transform").css("border-radius", "scale(2.5.2.5)");
+  $("#text-animation-color-06").css("color", "#2a81ea");
+});
+
+$("#img-animada-06").on("mouseleave", function(e) {
+  $("#img-animada-06").css("-moz-transform", "");
+  $("#img-animada-06").css("-webkit-transform", "");
+  $("#transform").css("border-radius", "");
+  $("#text-animation-color-06").css("color", "#3d4b69");
+});
+
+//====================================================================//
