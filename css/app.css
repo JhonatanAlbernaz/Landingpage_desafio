@@ -1087,7 +1087,7 @@
 }
 
 .height-858 {
-    height: 858px;
+    height: 1000px;
 }
 
 .height-503 {
@@ -1598,11 +1598,11 @@ html {
 
     #menu-lateral {
         background-color: white;
-        min-height: 100vh;
+        min-height: 128vh;
         max-height: 123vh;
         width: 303px;
-        top: -48px;
-        left: 255px;
+        top: -69px;
+        left: 257px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
@@ -1895,7 +1895,7 @@ html {
     .height-995 {
         height: 1835px;
         background-color: #F7F9FE !important;
-        width: 124%;
+        width: 126%;
     }
     
     .titulo-terceira-section {
@@ -2901,11 +2901,11 @@ html {
 
     #menu-lateral {
         background-color: white;
-        min-height: 100vh;
+        min-height: 117vh;
         max-height: 115vh;
         width: 303px;
-        top: -58px;
-        left: 256px;
+        top: -69px;
+        left: 257px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
@@ -3195,7 +3195,7 @@ html {
     .height-995 {
         height: 1835px;
         background-color: #F7F9FE !important;
-        width: 110%;
+        width: 115%;
     }
     
     .titulo-terceira-section {
@@ -3421,7 +3421,7 @@ html {
     .height-900 {
         height: 1760px;
         background-color: #F7F9FE !important;
-        width: 113%;
+        width: 115%;
     }
     
     .widht-730 {
@@ -3529,7 +3529,7 @@ html {
     .height-696 {
         background-color: #F7F9FE !important;
         height: 1550px;
-        width: 113%;
+        width: 115%;
     }
     
     .height-552 {
@@ -3614,7 +3614,7 @@ html {
     .height-513 {
         height: 1330px;
         background-color: #F7F9FE !important;
-        width: 113%;
+        width: 115%;
     }
     
     .titulo-setima-section {
@@ -3656,7 +3656,7 @@ html {
     .height-685 {
         height: 1160px;
         background-color: #2766bb !important;
-        width: 113%;
+        width: 115%;
     }
     
     .background-imagem-oitava-section {
@@ -3767,7 +3767,7 @@ html {
     .height-923 {
         height: 1190px;
         background-color: #f8f9fa !important;
-        width: 113%;
+        width: 115%;
     }
     
     .espacamento-9-sessao {
@@ -4030,7 +4030,7 @@ html {
     .height-785 {
         height: 1680px;
         background-color: #f8f9fa !important;
-        width: 113%;
+        width: 115%;
     }
 
     .border-icones {
@@ -4201,11 +4201,11 @@ html {
 
     #menu-lateral {
         background-color: white;
-        min-height: 100vh;
+        min-height: 108vh;
         max-height: 106vh;
         width: 303px;
-        top: -58px;
-        left: 256px;
+        top: -70px;
+        left: 258px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
@@ -4488,7 +4488,7 @@ html {
     .height-995 {
         height: 1950px;
         background-color: #F7F9FE !important;
-        width: 104%;
+        width: 106%;
     }
     
     .titulo-terceira-section {
@@ -4713,7 +4713,7 @@ html {
     .height-900 {
         height: 1740px;
         background-color: #F7F9FE !important;
-        width: 105%;
+        width: 106%;
     }
     
     .widht-730 {
@@ -4820,7 +4820,7 @@ html {
     .height-696 {
         background-color: #F7F9FE !important;
         height: 1500px;
-        width: 105%;
+        width: 106%;
     }
     
     .height-552 {
@@ -4900,7 +4900,7 @@ html {
     .height-513 {
         height: 1300px;
         background-color: #F7F9FE !important;
-        width: 105%;
+        width: 106%;
     }
     
     .titulo-setima-section {
@@ -4940,7 +4940,7 @@ html {
     .height-685 {
         height: 1060px;
         background-color: #2766bb !important;
-        width: 105%;
+        width: 106%;
     }
     
     .background-imagem-oitava-section {
@@ -5050,7 +5050,7 @@ html {
     .height-923 {
         height: 1150px;
         background-color: #f8f9fa !important;
-        width: 105%;
+        width: 106%;
     }
     
     .espacamento-9-sessao {
@@ -5500,11 +5500,11 @@ html {
 
     #menu-lateral {
         background-color: white;
-        min-height: 100vh;
-        max-height: 106vh;
+        min-height: 107vh;
+        max-height: 115vh;
         width: 301px;
-        top: -63px;
-        left: 285px;
+        top: -69px;
+        left: 284px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
@@ -5523,7 +5523,7 @@ html {
         position: fixed;
         top: 0;
         bottom: -1px;
-        left: 270px;
+        left: 269px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -5782,7 +5782,7 @@ html {
     .height-995 {
         height: 2000px;
         background-color: #F7F9FE !important;
-        width: 104%;
+        width: 105%;
     }
     
     .titulo-terceira-section {
